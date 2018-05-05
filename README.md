@@ -5,3 +5,5 @@ Just another repository
 newly added line
 
 rewritten
+
+local edit
