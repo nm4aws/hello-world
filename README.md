@@ -6,4 +6,4 @@ newly added line
 
 rewritten
 
-local edit.
+local edit!
