@@ -1,4 +1,4 @@
-//index js: simple nodejs app
+//index js: simple nodejs app: basic app
 
 const port = 9000
 require('http')
