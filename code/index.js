@@ -50,7 +50,7 @@ app.get('/', (req, res) => {
   promise.then(function(result) {
     var jsonoutput = JSON.stringify(result);
     console.log(jsonoutput); // "Stuff worked!"
-    res.status(200).send("DB output in json format is: " + jsonoutput);
+    res.status(200).send("DB content in JSON format: " + jsonoutput);
   }, function(err) {
     console.log(err); // Error: "It broke"
   });
