@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Expected input is (1) github repo url (2) destination directory to download code into. Expected number of parameters = 2
+#Expected input is (1) github repo url (2) destination directory to download code into. Expected number of parameters = 2
 if [ $# -ne 2 ]; then
     echo $0: usage: gitdownload {GitHubRepo DestinationDirectory}. "#=" $# " *=" $*
     exit 1
