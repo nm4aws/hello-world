@@ -47,4 +47,7 @@ if [ $needdownload -eq 1 ]; then
     rm -rf $localrepodir
     git clone $githubrepo $localrepodir
     echo "downloaded"
+    echo "copying into directory of running nodejs instance..."
+    cp -r $localrepodir/code/* code/
+    echo "copied."
 fi
